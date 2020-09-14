@@ -1,0 +1,72 @@
+/*Meta Tic-Tac-Toe design*/
+
+body{
+	background-color: #666666;
+	color:#6600cc;
+	position: relative;
+	z-index: 0;
+}
+
+img{
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+}
+
+table,tr,td{
+	border: 1px solid black;
+	box-shadow: 0 0 0 1px black;
+}table{
+	border-collapse: collapse;
+	margin:15px;
+}hr{
+	color:#33ff66;
+}
+
+button{
+	font-size: 3em;
+	height:90px;
+	text-align: center;
+	background-color: #33ff66;
+	color: #6600cc;
+	border: 2px solid #6600cc;
+	padding:10px 0px 10px 0px;
+	width:100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+
+.x{
+	background-image: url('cross.png');
+	background-repeat: no-repeat;
+	pointer-events: none;
+}.o{
+	background-image: url('circle.png');
+	background-repeat: no-repeat;
+	pointer-events: none;
+}.xb{
+	background-image: url('bcross.png');
+	background-repeat: no-repeat;
+	pointer-events: none;
+}.ob{
+	background-image: url('bcircle.png');
+	background-repeat: no-repeat;
+	pointer-events: none;
+}.xw{
+	background-color: #de9d87;
+}.ow{
+	background-color: #dede87;
+}.softlock{
+	border: 3px solid #6600cc;
+}
+
+/*
+Tag 1: Researching about how to get the wincon done
+Tag 2: Attempting to implement the conversion of wins to right field
+Tag 3: Rewriting the Project with a more DRY format; avatar creation
+Tag 4: Avatar into a gif, setting it up; fieldswapping made DRY; softlock
+Tag 5:
+*/
