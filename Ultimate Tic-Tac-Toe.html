@@ -82,7 +82,7 @@
 	function winCon(field){																									//Win-Condition check
 		if(previousField==='none'){return}
 		if(checkField(0)===true){gameEnd('t');return}
-		if(document.querySelector('.n')===null){gameEnd('d'); return}
+		if(document.querySelector('.n')===null || emptyField(0)===true){gameEnd('d'); return}
 		if(field===document.getElementsByClassName('softlock')[0].id){Softlock(field)}
 	}
 
