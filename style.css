@@ -60,13 +60,5 @@ h1{
 }.ow{
 	background-color: #dede87;
 }.softlock{
-	border: 3px solid #6600cc;
+	border: 3px solid #2bc451;
 }
-
-/*
-Tag 1: Researching about how to get the wincon done
-Tag 2: Attempting to implement the conversion of wins to right field
-Tag 3: Rewriting the Project with a more DRY format; avatar creation
-Tag 4: Avatar into a gif, setting it up; fieldswapping made DRY; softlock
-Tag 5:
-*/
